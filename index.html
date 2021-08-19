@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width:600px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <title>Menu Bar</title>
+</head>
+<body>
+    <header class="main_header">
+        <h1>Front-end Track</h1>
+        <nav>
+            <ul class="main_list">
+                <li class="main_item"><a class="main_link" href="#">HTML</a>
+                    <ul class="sub_list">
+                        <li><a href="#">Full course</a></li>
+                        <li><a href="#">Crash course</a></li>
+                        <li><a href="#">Learn in 1h</a></li>
+                    </ul>
+                </li>
+                <li class="main_item"><a class="main_link" href="#">CSS</a>
+                    <ul class="sub_list">
+                        <li><a href="#">Full course</a></li>
+                        <li><a href="#">Examples</a></li>
+                        <li><a href="#">Projects</a></li>
+                    </ul>
+                </li>
+                <li class="main_item"><a class="main_link" href="#">JavaScript</a>
+                    <ul class="sub_list">
+                        <li><a href="#">Full course</a></li>
+                        <li><a href="#">Examples</a></li>
+                        <li><a href="#">Projects</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <header class="mobile_header">
+        <h1>Front-end Track</h1>
+        <label class="menu_bar" for="menu"><i class="fas fa-bars"></i></label>
+        <input  id="menu" type="checkbox">
+        <div class="main_menu">
+            <div>
+                <label for="html">HTML <i class="fas fa-plus"></i></label>
+                <input id="html" type="checkbox">
+                <ul class="sub_menu">
+                    <li><a href="#">Full course</a></li>
+                    <li><a href="#">Crash course</a></li>
+                    <li><a href="#">Learn in 1h</a></li>
+                </ul>
+            </div>
+            <div>
+                <label for="css">CSS <i class="fas fa-plus"></i></label>
+                <input id="css" type="checkbox">
+                <ul class="sub_menu">
+                    <li><a href="#">Full course</a></li>
+                    <li><a href="#">Examples</a></li>
+                    <li><a href="#">Projects</a></li>
+            </div>
+            <div>
+                <label for="js">JavaScript<i class="fas fa-plus"></i> </label>
+                <input id="js" type="checkbox">
+                <ul class="sub_menu">
+                    <li><a href="#">Full course</a></li>
+                    <li><a href="#">Examples</a></li>
+                    <li><a href="#">Projects</a></li>
+            </div>
+        </div>  
+    </header>
+    <div class="content">
+        <img src="content.jpg" alt="">
+    </div>
+    <footer>
+        Designed By Abeer Hussain
+        <span role="img" aria-label="">🙈</span>
+    </footer>
+</body>
+</html>

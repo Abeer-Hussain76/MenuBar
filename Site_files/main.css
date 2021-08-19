@@ -1,0 +1,333 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+h3,h4 {font-weight: 600;}
+h2 {font-weight: 400;}
+
+/*---------------Header----------*/
+header{
+    background: rgb(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+}
+nav a{
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+}
+header div{
+    align-self: center;
+    color: #fff;
+    padding-right: 20px;
+}
+.fa-home { padding-right: 10px;}
+.logo{
+    background: #009688 !important;
+}
+.logo:hover{
+    background: #b9b9b9 !important;
+}
+nav a:hover{
+    background: #f0f0f0;
+    color: #000;
+}
+.dropdown:hover + .dropdown_menu{
+    display: block;
+}
+.dropdown_menu{
+    width: 137px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 46px;
+    left: 447px;
+    display: none;
+}
+.dropdown_menu a{
+    padding: 5px 20px 5px;
+    color: #000; 
+}
+/*--------------img--------------*/
+img{
+    display: block;
+    width: 100%;
+    height: calc(100vh - 85px);
+}
+/*--------------Our Team--------------*/
+.title{
+    text-align: center;
+    margin: 50px 0 30px;
+    letter-spacing: 1px;
+}
+.title h1{
+    padding: 70px 0  10px;
+    font-size: 2.5rem; 
+    font-weight: 500;
+}
+.title p{
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+}
+.our_team_wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.our_team_wrapper div{
+    text-align: center;
+}
+.our_team_wrapper img{
+    width: 150px;
+    height: 130px;
+    border-radius: 50%;
+}
+.our_team_wrapper h3{
+    margin: 20px 0 15px;
+}
+/*-----------our work------------*/
+
+.work_team_wrapper{
+    background: #333333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 90px 10px; 
+}
+.our_work{ 
+    width: 25%;
+    line-height: 30px;
+}
+.Customer img{
+    width: 100%;
+    height: 180px;
+}
+.Customer{
+   color: rgb(0, 0, 0, 0.9);
+   width: 24%;
+   background: #fff;
+}
+.work_team_wrapper div h2,
+.work_team_wrapper div h3,
+.work_team_wrapper div h4,
+.work_team_wrapper div p{
+    padding: 10px 0 10px 15px;  
+}
+.work_team_wrapper div h2{
+    font-size: 2rem;
+    font-weight: 500 !important;
+    letter-spacing: 1px;
+}
+.work_team_wrapper div h3{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+/*----------Pricing---------------*/
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-top: 50px;
+}
+.pricing_wrappper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pricing{
+    width: 30%;
+    text-align: center;
+    border: 1px solid #d3d0d0;
+    font-family: Verdana,sans-serif; 
+}
+.pricing:hover{
+    box-shadow: 2px 0 16px rgb(158, 157, 157);
+}
+.pricing h3{
+    font-size: 1.7rem;
+    font-weight: 400;
+    background: #000;
+    color: #fff;
+    padding: 30px 0;
+}
+.pro{
+    background: #797878 !important;
+}
+.pricing ul li{
+    list-style: none;
+    padding: 17px 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #d3d0d0;
+}
+.wide{
+    padding: 25px  0 !important;
+}
+.list_wide{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-left: 10px; 
+}
+.fa-dollar-sign{
+    font-size: 32px;  
+}
+.pricing ul li span{
+    color: #797878;
+    font-size: 18px;
+}
+.singup{
+    background: #f0f0f0;
+}
+.singup button{
+    color: #fff;
+    background: #009688;
+    padding: 17px 35px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.singup button:hover{
+    background: #bbbbbb;
+    color: #000;
+}
+/*-----------------Contact----------------*/
+.contact_wrapper{
+    display: flex;
+    justify-content: space-between;
+    background: #f0f0f0;
+    margin-top: 80px;
+}
+.contact{
+    padding: 70px 20px;
+    width: 40%;
+}
+.contact h2{
+    font-size: 1.7rem;
+    display: inline-block;
+    border-bottom: 5px solid teal;
+    margin: 20px 0;
+}
+.contact h3{
+    font-size: 1.5rem;
+    font-weight: 400 !important;
+    margin-bottom: 10px;
+}
+.contact p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 15px; 
+}
+.contact p span{
+    color: teal; 
+}
+.form_conainer{
+    width: 60%;
+    background: #fff;
+    margin : 70px 20px;  
+    box-shadow: 0 0 10px rgb(158, 157, 157);
+}
+.form{
+    padding: 17px;
+}
+.form div{
+    margin: 0 0 16px;
+    padding:  10px 0 0 15px;
+}
+.form input{
+    display: block;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc; ;
+}
+.check_container{
+    position: relative;
+    height: 40px;
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
+}
+.checkbox{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 24px !important;
+}
+.like{
+    position: absolute;
+    top: 3px;
+    left: 33px;
+}
+.btn_send{
+    background: #000;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/*-------------footer---------------*/
+footer{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+footer h4{
+    font-size: 1.3rem;
+    font-weight: 400 !important;
+    margin-bottom: 10px;
+} 
+.footer_icon a{
+    background: teal;
+    color:#fff;
+    padding: 10px 18px;
+}
+.footer_icon a:hover{
+    background: #b9b9b9;
+    color:#000;
+}
+.icon_container{
+    padding: 10px 0;
+    position: relative;  
+}
+.go_top{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+.go_top a{
+    background: #fff;
+    color:#000;
+    padding: 3px;
+    border-radius: 50%;
+}
+.go_top a:hover{
+    border-radius: 0;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

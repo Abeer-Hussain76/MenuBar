@@ -1,0 +1,67 @@
+.main_header{
+    display: none;
+}
+.mobile_header{
+    display: block;
+    position: relative;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+input {
+    display:none;
+}
+.menu_bar{
+    position: absolute;
+    font-size: 1.8rem;
+    top: 22px;
+    right: 30px;
+    transform: scaleX(1.4);
+}
+.main_menu {
+    display: none;
+}
+#menu:checked + .main_menu {
+    display: block;
+}
+.sub_menu{
+    display: none;
+}
+#html:checked + .sub_menu{
+    display: block;
+}
+#css:checked + .sub_menu{
+    display: block;
+}
+#js:checked + .sub_menu{
+    display: block;
+}
+.main_menu {
+    margin-top: 20px;
+}
+.main_menu div{
+    border-bottom: 2px solid #000;
+}
+label{
+    display: block;
+    font-size: 1.2rem;
+    padding: 10px;
+    position: relative;
+}
+label:hover,
+  label:hover .fas,
+  .sub_menu li a:hover{
+    color: #00ffff;
+    letter-spacing: 1px;
+}
+.fa-plus{
+    font-size: .9rem;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+}
+.sub_menu li{
+    padding: 15px 0 0 40px;
+}
+.sub_menu li a{
+    display: block;
+}
